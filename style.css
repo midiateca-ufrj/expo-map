@@ -1,3 +1,8 @@
+* {
+   overflow: hidden;
+}
+
+
 #map {
    height: 100vh;
 }
