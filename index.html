@@ -65,7 +65,7 @@
             latitude = parseFloat(coord[0]);
             longitude = parseFloat(coord[1]);
             var marker = L.marker([latitude, longitude], {icon: greenIcon}).addTo(map);
-            marker.bindPopup(`  <div class='content'><img src='img/${data[key].img}' alt=''><a href='${data[key].link}'>${data[key].titulo}</a></div>`);
+            marker.bindPopup(`  <div class='content'><img src='img/${data[key].img}' alt=''><a href='${data[key].link}' target='_blank'>${data[key].titulo}</a></div>`);
           }
       });
       
